@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataProcessor.cs" />
+    <Compile Include="DataMessage.cs" />
+    <Compile Include="InstanciatedDataProcessor.cs" />
+    <Compile Include="DynamicDataProcessor.cs" />
     <Compile Include="IDataProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

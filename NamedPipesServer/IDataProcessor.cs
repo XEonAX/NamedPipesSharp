@@ -6,6 +6,6 @@ namespace NamedPipesSharp
     public interface IDataProcessor
     {
         [OperationContract]
-        int Process();
+        DataMessage Process(DataMessage message);
     }
 }

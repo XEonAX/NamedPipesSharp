@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\NamedPipesServer\DataMessage.cs">
+      <Link>DataMessage.cs</Link>
+    </Compile>
     <Compile Include="..\NamedPipesServer\IDataProcessor.cs">
       <Link>IDataProcessor.cs</Link>
     </Compile>
